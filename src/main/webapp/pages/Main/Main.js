@@ -26,3 +26,23 @@ Application.$controller("grid3Controller", ["$scope",
 		$scope.ctrlScope = $scope;
 	}
 ]);
+
+
+Application.$controller("UserGrid2Controller", ["$scope",
+	function($scope) {
+		"use strict";
+		$scope.ctrlScope = $scope;
+	
+        $scope.addNewRow = function(){ 
+
+        };
+ 
+    }
+]);
+
+Application.$controller("UserLiveform1Controller", ["$scope",
+	function($scope) {
+		"use strict";
+		$scope.ctrlScope = $scope;
+	}
+]);
