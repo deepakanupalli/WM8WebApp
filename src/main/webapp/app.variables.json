@@ -33,6 +33,7 @@
 		"_id": "wm-supportedLocale-wm.Variable1402640443182"
 	},
 	"HrdbDepartmentData": {
+		"name": "HrdbDepartmentData",
 		"type": "Department",
 		"isList": true,
 		"owner": "App",
@@ -214,10 +215,10 @@
 			"entityName": "Department",
 			"fullyQualifiedName": "com.hrdb.Department",
 			"tableType": "TABLE"
-		},
-		"name": "HrdbDepartmentData"
+		}
 	},
 	"HrdbEmployeeData": {
+		"name": "HrdbEmployeeData",
 		"type": "Employee",
 		"isList": true,
 		"owner": "App",
@@ -948,10 +949,10 @@
 			"entityName": "Employee",
 			"fullyQualifiedName": "com.hrdb.Employee",
 			"tableType": "TABLE"
-		},
-		"name": "HrdbEmployeeData"
+		}
 	},
 	"HrdbUserData": {
+		"name": "HrdbUserData",
 		"type": "User",
 		"isList": true,
 		"owner": "App",
@@ -1064,10 +1065,10 @@
 			"fullyQualifiedName": "com.hrdb.User",
 			"tableType": "TABLE"
 		},
-		"bindCount": 2,
-		"name": "HrdbUserData"
+		"bindCount": 2
 	},
 	"HrdbVacationData": {
+		"name": "HrdbVacationData",
 		"type": "Vacation",
 		"isList": true,
 		"owner": "App",
@@ -1378,10 +1379,10 @@
 			"entityName": "Vacation",
 			"fullyQualifiedName": "com.hrdb.Vacation",
 			"tableType": "TABLE"
-		},
-		"name": "HrdbVacationData"
+		}
 	},
 	"GoogleMapsApis": {
+		"name": "GoogleMapsApis",
 		"type": "googleapis.DirectionsResponse",
 		"isList": false,
 		"owner": "App",
@@ -1447,7 +1448,14 @@
 				}
 			]
 		},
-		"_id": "wm-GoogleapisInvoke-wm.ServiceVariable-1440683423945",
-		"name": "GoogleMapsApis"
+		"_id": "wm-GoogleapisInvoke-wm.ServiceVariable-1440683423945"
+	},
+	"goToPage-NewPage": {
+		"owner": "App",
+		"operation": "gotoPage",
+		"pageName": "NewPage",
+		"dataBinding": {},
+		"category": "wm.NavigationVariable",
+		"_id": "wm-goToPage-NewPage-wm.NavigationVariable-1440758618512"
 	}
 }
